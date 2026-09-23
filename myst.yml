@@ -1,0 +1,24 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+
+project:
+  id: 4ec1b841-962b-4b53-85c4-517ecc7f053f
+  title: "Web Mining"
+  description: "Web Mining Project"
+
+  toc:
+    - file: crawling.ipynb
+    - file: intro.md
+
+  # keywords: []
+  # authors: []
+  github: https://github.com/FaizaturR/PPW2
+
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+
+site:
+  template: book-theme
+
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
